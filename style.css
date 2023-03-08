@@ -1,0 +1,37 @@
+.tools-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  width: 50%;
+}
+
+#color-palette {
+  display: flex;
+  gap: 4px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#reset-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+
+#eraser-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
